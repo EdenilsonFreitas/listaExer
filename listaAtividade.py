@@ -1,38 +1,49 @@
+import math
+
 # Questão 01.
 # entrada dos dados
-num1 = float(input("Digite o primeiro valor: "))
-num2 = float(input("Digite o segundo valor: "))
+# num1 = float(input("Digite o primeiro valor: "))
+# num2 = float(input("Digite o segundo valor: "))
 # Operações o processo de cada uma das operações
-soma = num1 + num2
-subtracao = num1 - num2
-multiplicacao = num1 * num2
-divisao = num1 / num2
+# soma = num1 + num2
+# subtracao = num1 - num2
+# multiplicacao = num1 * num2
+# divisao = num1 / num2
 
 # Exibindo os resultados
-print(f"A soma de {num1} + {num2} é: {soma}")
-print(f"A subtração de {num1} - {num2} é: {subtracao}")
-print(f"A multiplicação de {num1} * {num2} é: {multiplicacao}")
-print(f"A divisão de {num1} / {num2} é: {divisao}")
+# print(f"A soma de {num1} + {num2} é: {soma}")
+# print(f"A subtração de {num1} - {num2} é: {subtracao}")
+# print(f"A multiplicação de {num1} * {num2} é: {multiplicacao}")
+# print(f"A divisão de {num1} / {num2} é: {divisao}")
 # Questão 02
-"""
-Conversor de Temperatura: Solicite ao usuário um valor de temperatura em graus
-Celsius, converta-a para Fahrenheit e exiba o resultado da conversão.
-"""
+
+# num3 = float(input ("Digite a temperatura: "))
+
+# temperatura = num3 * 1.8 + 32 
+
+# print(f"A temperatura em celsius para fahreiheit: {temperatura} ºF")
+
 # Questão 03
-"""
-Área do Círculo: Solicite ao usuário um valor do raio de um círculo, calcule sua
-área e exiba o resultado do cálculo.
-"""
+# raio = float(input("Digite o raio do Circulo: "))
+# area = math.pi * raio**2
+# print(f"Área do Circulo: {area:.2f}")
 # Questão 04
-"""
-Área do Triângulo: Solicite ao usuário um valor da base e da altura de um
-triângulo, calcule sua área e exiba o resultado do cálculo.
-"""
+
+# base = float(input("Digite a base do Triângulo: "))
+# altura = float(input("Digite a altura do Triangulo: "))
+
+# area = (base*altura)/2
+
+# print(f"Área do Triangulo: {area:.2f}")
 # Questão 05
 """
 Volume da Esfera: Solicite ao usuário um valor do raio de uma esfera, calcule seu
 volume e exiba o resultado do cálculo.
 """
+raio = float(input("Digite o raio da Esfera: "))
+volume = (4/3)* math.pi*raio ** 3
+print(f"Volume da Esfera: {volume:.2f}")
+
 
 # Questão 06
 """
