@@ -1,9 +1,18 @@
 # Questão 01.
-"""
-Calculadora Simples: Solicite ao usuário para inserir dois valores numéricos,
-realize as operações de soma, subtração, multiplicação e divisão, e ao final exiba
-os valores de cada uma das operações.
-"""
+# entrada dos dados
+num1 = float(input("Digite o primeiro valor: "))
+num2 = float(input("Digite o segundo valor: "))
+# Operações o processo de cada uma das operações
+soma = num1 + num2
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2
+
+# Exibindo os resultados
+print(f"A soma de {num1} + {num2} é: {soma}")
+print(f"A subtração de {num1} - {num2} é: {subtracao}")
+print(f"A multiplicação de {num1} * {num2} é: {multiplicacao}")
+print(f"A divisão de {num1} / {num2} é: {divisao}")
 # Questão 02
 """
 Conversor de Temperatura: Solicite ao usuário um valor de temperatura em graus
