@@ -17,7 +17,7 @@ inferior ou superior do intervalo.
 # else:
 #     print("O terceiro valor está dentro do intervalo.")
 
-# Questao 02
+#Questao 02
 
 """
 Escreva um programa que sempre escolhe o menor caminho a ser percorrido pelo
@@ -27,35 +27,35 @@ deverá fornecer as distância entre os pontos e o programa deverá apresentar o
 a ser percorrido e a distância percorrida. Utilizar apenas estruturas condicionais.
 """
 
-AB = float(input("Distaância de A Até B: "))
-AC = float(input("Distaância de A Até C: "))
-BD = float(input("Distaância de B Até D: "))
-BE = float(input("Distaância de B Até E: "))
-CF  = float(input("Distância de C Até F: "))
-CG = float(input("Distância de C Até G: "))
-caminho1 = AB +BD
-caminho2 = AB + BE
-caminho3 = AC + CF
-caminho4 = AC + CG
-# Inicialmente assume o primeiro como menor
-menor = caminho1
-rota = "A -> B -> D"
+# AB = float(input("Distaância de A Até B: "))
+# AC = float(input("Distaância de A Até C: "))
+# BD = float(input("Distaância de B Até D: "))
+# BE = float(input("Distaância de B Até E: "))
+# CF  = float(input("Distância de C Até F: "))
+# CG = float(input("Distância de C Até G: "))
+# caminho1 = AB +BD
+# caminho2 = AB + BE
+# caminho3 = AC + CF
+# caminho4 = AC + CG
+# # Inicialmente assume o primeiro como menor
+# menor = caminho1
+# rota = "A -> B -> D"
 
-# Comparações usando apenas if
-if caminho2 < menor:
-    menor = caminho2
-    rota = "A -> B -> E"
+# # Comparações usando apenas if
+# if caminho2 < menor:
+#     menor = caminho2
+#     rota = "A -> B -> E"
 
-if caminho3 < menor:
-    menor = caminho3
-    rota = "A -> C -> F"
+# if caminho3 < menor:
+#     menor = caminho3
+#     rota = "A -> C -> F"
 
-if caminho4 < menor:
-    menor = caminho4
-    rota = "A -> C -> G"
+# if caminho4 < menor:
+#     menor = caminho4
+#     rota = "A -> C -> G"
 
-# Saída
-print("\nResultado:")
-print("Caminho percorrido:", rota)
-print("Distância percorrida:", menor)
+# # Saída
+# print("\nResultado:")
+# print("Caminho percorrido:", rota)
+# print("Distância percorrida:", menor)
 
